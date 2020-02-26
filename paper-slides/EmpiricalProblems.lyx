@@ -1,0 +1,1096 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\usepackage{hyperref}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize a4paper
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+E572 Empirical Problems
+\end_layout
+
+\begin_layout Author
+Yongseok Kim
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+See Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:1.a.1"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ and 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:1.a.2"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename /Users/apple/Courseworks/KelleyPhD/2020Spring/ECON572/EmpiricalHW/output/figs/p.1.a.1.pdf
+	width 95text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+the level of hourly earnings
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:1.a.1"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename /Users/apple/Courseworks/KelleyPhD/2020Spring/ECON572/EmpiricalHW/output/figs/p.1.a.2.pdf
+	width 95text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+the log of hourly earnings
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:1.a.2"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+See Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:1.b.1"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ and 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:1.b.2"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename /Users/apple/Courseworks/KelleyPhD/2020Spring/ECON572/EmpiricalHW/output/figs/p.1.b.1.pdf
+	width 95text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+resid1
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:1.b.1"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename /Users/apple/Courseworks/KelleyPhD/2020Spring/ECON572/EmpiricalHW/output/figs/p.1.b.2.pdf
+	width 95text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+resid2
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:1.b.2"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+From the exercised in (a) and (b), we can conclude that log can resolve
+ a right-skewed data and residuals to have an approximately normal distribution.
+\end_layout
+
+\begin_layout Enumerate
+Table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:1.d"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ reports the regression results.
+ The relevent 
+\begin_inset Formula $t$
+\end_inset
+
+-test is reported in parentheses, which is
+\begin_inset Formula 
+\[
+t(\hat{\beta})=\frac{\hat{\beta}-\beta}{\sqrt{\hat{\sigma}^{2}/\sum(x_{i}-\bar{x})^{2}}}
+\]
+
+\end_inset
+
+where 
+\begin_inset Formula 
+\[
+\hat{\sigma}^{2}=\frac{1}{n}\hat{\varepsilon}'\hat{\varepsilon}
+\]
+
+\end_inset
+
+
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+log(wage) | const + black
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:1.d"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset CommandInset include
+LatexCommand input
+filename "/Users/apple/Courseworks/KelleyPhD/2020Spring/ECON572/EmpiricalHW/output/tabs/m.1.d.tex"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:1.e"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ reports the regression results.
+ Increased adjusted R-squared suggests that observed skill levels can explain
+ wage differences a lot.
+ However, after controlling skill levels, we can still observe wage gaps
+ between races.
+\begin_inset Float table
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+log(wage) | const + black + educ + exp + exp2
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:1.e"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset CommandInset include
+LatexCommand input
+filename "/Users/apple/Courseworks/KelleyPhD/2020Spring/ECON572/EmpiricalHW/output/tabs/m.1.e.tex"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:2.a.1"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ and 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:2.a.2"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ report baseline and augmented models, respectively.
+ In the first model, we test
+\begin_inset Formula 
+\[
+H_{0}:\mathbb{E}[\log wage|female=1,skills]=\mathbb{E}[\log wage|female=0,skills]
+\]
+
+\end_inset
+
+and this null hypothesis is rejected by 
+\begin_inset Formula $t$
+\end_inset
+
+-test on the coefficient of 
+\begin_inset Formula $black$
+\end_inset
+
+.
+ In the second model, we test
+\begin_inset Formula 
+\[
+H_{0}:\mathbb{E}[\log wage|female=1,black=1,skills]=\mathbb{E}[\log wage|female=1,black=0,skills]
+\]
+
+\end_inset
+
+and this null hypothesis is rejected by 
+\begin_inset Formula $t$
+\end_inset
+
+-test on the coefficient of 
+\begin_inset Formula $I(female*black)$
+\end_inset
+
+.
+\begin_inset Float table
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+log(wage) | const + female + educ + exp + exp2
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:2.a.1"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset CommandInset include
+LatexCommand input
+filename "/Users/apple/Courseworks/KelleyPhD/2020Spring/ECON572/EmpiricalHW/output/tabs/m.2.a.1.tex"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+log(wage) | const + female + female * black + educ + exp + exp2
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:2.a.2"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset CommandInset include
+LatexCommand input
+filename "/Users/apple/Courseworks/KelleyPhD/2020Spring/ECON572/EmpiricalHW/output/tabs/m.2.a.2.tex"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:2.b.1"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ reports a model that allows each of the four groups to have a different
+ intercept.
+ Specifically,
+\begin_inset Formula 
+\[
+Const=\text{single and male}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+Const+married=\text{married and male}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+Const+female=\text{single and female}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+Const+married:female=\text{married and female}
+\]
+
+\end_inset
+
+To test a joint null hypothesis that there is no difference between the
+ four groups, I estimate a restricted model
+\begin_inset Formula 
+\[
+log(wage)|const+educ+exp+exp2
+\]
+
+\end_inset
+
+and construct 
+\begin_inset Formula $F=_{d}F(3,n-k)$
+\end_inset
+
+.
+ From the test, I obtain
+\begin_inset Formula 
+\[
+F=584.6024
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+p=0.0000
+\]
+
+\end_inset
+
+suggesting the null hypothesis is rejected.
+ Next, I test a null hypothesis that there is no difference between single
+ males and single females.
+ From 
+\begin_inset Formula $t$
+\end_inset
+
+-test on the coefficient of 
+\begin_inset Formula $female$
+\end_inset
+
+, we can conclude that this null hypothesis is rejected.
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+log(wage) | const + female + married + female * married + educ + exp + exp2
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:2.b.1"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset CommandInset include
+LatexCommand input
+filename "/Users/apple/Courseworks/KelleyPhD/2020Spring/ECON572/EmpiricalHW/output/tabs/m.2.b.1.tex"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+First, we have
+\begin_inset Formula 
+\[
+\hat{\alpha}=[S'(I-P_{X})S]^{-1}S'(I-P_{X})y
+\]
+
+\end_inset
+
+Second,
+\begin_inset Formula 
+\begin{align*}
+\hat{\gamma} & =[S'(I-P_{\iota})S]^{-1}S'(I-P_{\iota})\hat{v}\\
+ & =[S'(I-P_{\iota})S]^{-1}S'(I-P_{\iota})(I-P_{X})y\\
+ & =[S'(I-P_{\iota})S]^{-1}S'(I-P_{X})y
+\end{align*}
+
+\end_inset
+
+since
+\begin_inset Formula 
+\[
+\mathcal{R}(X)^{\perp}\subset\mathcal{R}(\iota)^{\perp}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Note that
+\begin_inset Formula 
+\[
+\frac{\hat{\alpha}}{\hat{\gamma}}=\frac{S'(I-P_{\iota})S}{S'(I-P_{X})S}=\frac{1}{1-\bar{R}^{2}}\geq1
+\]
+
+\end_inset
+
+suggesting
+\begin_inset Formula 
+\[
+\hat{\alpha}\geq\hat{\gamma}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+No, simple is the best.
+ The Urn Model complicates the simple regression without adding any interpretati
+on and may underestimate the sex differential.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Note that
+\begin_inset Formula 
+\[
+u_{t}=\varepsilon_{t}+\alpha\varepsilon_{t-1}+\alpha^{2}\varepsilon_{t-2}+\cdots
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\text{var}(u_{t})=\frac{\sigma^{2}}{1-\alpha^{2}}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\begin{align*}
+\gamma(k) & =\text{cov}(u_{t},u_{t-k})\\
+ & =\alpha^{k}\text{cov}(u_{t-k},u_{t-k})\\
+ & =\alpha^{k}\frac{\sigma^{2}}{1-\alpha^{2}}
+\end{align*}
+
+\end_inset
+
+Then
+\begin_inset Formula 
+\begin{align*}
+\rho_{u}(k) & =\frac{\gamma(k)}{\text{var}(u_{t})}\\
+ & =\alpha^{k}
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Note that
+\begin_inset Formula 
+\begin{align*}
+v_{t} & =u_{t}-u_{t-1}\\
+ & =\alpha v_{t-1}+\varepsilon_{t}-\varepsilon_{t-1}\\
+ & =\alpha^{2}v_{t-2}+\varepsilon_{t}-\varepsilon_{t-1}+\alpha(\varepsilon_{t-1}-\varepsilon_{t-2})\\
+ & =\varepsilon_{t}+(\alpha-1)\varepsilon_{t-1}+\alpha(\alpha-1)\varepsilon_{t-2}+\cdots
+\end{align*}
+
+\end_inset
+
+
+\begin_inset Formula 
+\begin{align*}
+\text{var}(v_{t}) & =\sigma^{2}+(\alpha-1)^{2}\frac{\sigma^{2}}{1-\alpha^{2}}\\
+ & =\frac{2(1-\alpha)}{1-\alpha^{2}}\sigma^{2}
+\end{align*}
+
+\end_inset
+
+
+\begin_inset Formula 
+\begin{align*}
+\text{cov}(v_{t},v_{t-k}) & =\text{cov}(\alpha^{k}v_{t-k}-\varepsilon_{t-k},v_{t-k})\\
+ & =\alpha^{k}\text{var}(v_{t-k})-\sigma^{2}
+\end{align*}
+
+\end_inset
+
+Thena
+\begin_inset Formula 
+\begin{align*}
+\rho_{v}(k) & =\alpha^{k}-\frac{1-\alpha^{2}}{2(1-\alpha)}\\
+ & =\alpha^{k}-\frac{1}{2}(1+\alpha)
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Note that
+\begin_inset Formula 
+\[
+\rho_{u}(k)-\rho_{v}(k)=\frac{1}{2}(1+\alpha)
+\]
+
+\end_inset
+
+which is increasing in 
+\begin_inset Formula $\alpha$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+First of all, log scale reduces the effect of outliers on estimators.
+ Second, log scale centers a data when it is right-skewed.
+\end_layout
+
+\begin_layout Enumerate
+From the coefficient of sex variable, we can conclude that men receive on
+ average approximately 6.38% more than women in the sample.
+ This model is reasonable, but cannot capture cross-departmental differences
+ in gender pay gaps.
+ From 
+\begin_inset Formula $exp(-0.7011)=0.4960$
+\end_inset
+
+, we can interpret 
+\begin_inset Formula $-0.7110$
+\end_inset
+
+ that people pediatrics department on average earn 50% of the sample average
+ salary.
+\end_layout
+
+\begin_layout Enumerate
+Since it is not specified, I assume that unspecified regressors are 0.
+ First, we have
+\begin_inset Formula 
+\[
+\hat{\mathbb{E}}[\log salary84|sex=0,cert=1,assistn=1,exper=5,expersq=25,clin=1]
+\]
+
+\end_inset
+
+is equal to
+\begin_inset Formula 
+\[
+12.0696+1\times0.1854+1\times(-0.1908)+5\times0.0292+25\times(-0.000335)+1\times0.1591=12.36092
+\]
+
+\end_inset
+
+In the case of the male professor, we have
+\begin_inset Formula 
+\[
+12.36092+0.0638=12.42472
+\]
+
+\end_inset
+
+The difference in the average salaries in actual dollars would be
+\begin_inset Formula 
+\[
+\exp(12.42472)-\exp(12.36092)=\$15,382.6
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Defenote 
+\begin_inset Formula $R_{1}^{2}$
+\end_inset
+
+ is from the unrestricted model, and 
+\begin_inset Formula $R_{2}^{2}$
+\end_inset
+
+ is from the restricted model.
+ Then
+\begin_inset Formula 
+\[
+\frac{R_{1}^{2}-R_{2}^{2}}{1-R_{1}^{2}}=\frac{\tilde{\varepsilon}'\tilde{\varepsilon}-\hat{\varepsilon}'\hat{\varepsilon}}{\hat{\varepsilon}'\hat{\varepsilon}}
+\]
+
+\end_inset
+
+Note that
+\begin_inset Formula 
+\[
+\frac{R_{1}^{2}-R_{2}^{2}}{1-R_{1}^{2}}\frac{261-14}{2}=_{d}F(2,261-14)
+\]
+
+\end_inset
+
+under the null hypothesis that rank is insignificant.
+ Then, we have
+\begin_inset Formula 
+\[
+F=21.9174
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+p=0.0000
+\]
+
+\end_inset
+
+suggesting the null hypothesis is rejected.
+\end_layout
+
+\begin_layout Enumerate
+First, the coefficient means that after controlling other variables, males
+ earn on average 
+\begin_inset Formula $exp(0.1083)=1.114832$
+\end_inset
+
+ times as much as females earn.
+ Second, a much higher 
+\begin_inset Formula $t$
+\end_inset
+
+-statistics are driven from the increased coefficient value.
+ Since coefficients of 
+\begin_inset Formula $assistn$
+\end_inset
+
+ and 
+\begin_inset Formula $associa$
+\end_inset
+
+ are negative, we can infer that 
+\begin_inset Formula $sex$
+\end_inset
+
+ and 
+\begin_inset Formula $assistn,associa$
+\end_inset
+
+ are negatively correlated, which means that males are more likely to be
+ a full professor than females in the sample.
+ Third, under the null hypothesis
+\begin_inset Formula 
+\[
+H_{0}:\beta=0.2083
+\]
+
+\end_inset
+
+we can construct 
+\begin_inset Formula $t$
+\end_inset
+
+-statistics that
+\begin_inset Formula 
+\begin{align*}
+t(\hat{\beta}) & =\frac{0.1083-0.2083}{0.0352}\\
+ & =-2.8409
+\end{align*}
+
+\end_inset
+
+By the rule of thumb, we may conclude that the data is inconstent with the
+ null hypothesis.
+\end_layout
+
+\end_deeper
+\begin_layout Section
+\start_of_appendix
+Appendix
+\end_layout
+
+\begin_layout Standard
+For R codes to get the above results, see 
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+https://github.com/ysugk/Course-ECON572/blob/master/code/EmpiricalHW.R
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
