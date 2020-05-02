@@ -1,5 +1,5 @@
 ## Data import
-mat <- R.matlab::readMat("input/Part IV/data.mat")
+mat <- R.matlab::readMat("input/Part IV/PS1/data.mat")
 data <- mat$data
 x <- data[ ,1] # (nX1) vector (age)
 y <- data[ ,6] # (nX1) vector (happiness)

@@ -1,0 +1,1934 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\usepackage{hyperref}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize a4paper
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Part IV: Problem Set 2
+\end_layout
+
+\begin_layout Author
+Yongseok Kim
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+See Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:1.a"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+ The results obtained from 
+\begin_inset Formula $\hat{m}(x)$
+\end_inset
+
+ and 
+\begin_inset Formula $\tilde{m}(x)$
+\end_inset
+
+ are very similar.
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /Users/apple/Courseworks/KelleyPhD/2020Spring/ECON572/EmpiricalHW/output/figs/Part IV/fig.4.a.1.pdf
+	width 48text%
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename /Users/apple/Courseworks/KelleyPhD/2020Spring/ECON572/EmpiricalHW/output/figs/Part IV/fig.4.a.2.pdf
+	width 48text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Local constant
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /Users/apple/Courseworks/KelleyPhD/2020Spring/ECON572/EmpiricalHW/output/figs/Part IV/fig.4.a.3.pdf
+	width 48text%
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename /Users/apple/Courseworks/KelleyPhD/2020Spring/ECON572/EmpiricalHW/output/figs/Part IV/fig.4.a.4.pdf
+	width 48text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Local linear
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset Formula $\hat{m}(x)$
+\end_inset
+
+ and 
+\begin_inset Formula $\tilde{m}(x)$
+\end_inset
+
+ by the local constant and linear estimation
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:1.a"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+This figure shows 
+\begin_inset Formula $\hat{m}(x)$
+\end_inset
+
+ and 
+\begin_inset Formula $\tilde{m}(x)$
+\end_inset
+
+ from various local constant and linear estimators.
+ Blue linear dashed line represents the linear regression model 
+\begin_inset Formula $y=\hat{\alpha}+\hat{\beta}x$
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+See Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:1.a"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+ The results obtained from the nonparametric regression function estimates
+ and from the linear model are very similar.
+\end_layout
+
+\begin_layout Enumerate
+Unlike the effect of age, the effect of income on happinesss is linear.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+For this question, calculating the bandwith set by cross validation is computati
+onally too burdening.
+ Hence, I only calculate estimators using the bandwidth set by the rule
+ of thumb.
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+See Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:2.a"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+ While 
+\begin_inset Formula $\hat{\alpha}(z)$
+\end_inset
+
+ shows U-shaped graph, 
+\begin_inset Formula $\hat{\beta}(z)$
+\end_inset
+
+ shows inverse U-shaped graph with respect to age.
+ In other words, on average, people are happiest when they are 20s; gradually
+ becomes unhappier as they get older; and a level of happiness rebounds
+ after their 50s.
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /Users/apple/Courseworks/KelleyPhD/2020Spring/ECON572/EmpiricalHW/output/figs/Part IV/fig.5.a.1.pdf
+	width 48text%
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename /Users/apple/Courseworks/KelleyPhD/2020Spring/ECON572/EmpiricalHW/output/figs/Part IV/fig.5.a.2.pdf
+	width 48text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Local constant
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /Users/apple/Courseworks/KelleyPhD/2020Spring/ECON572/EmpiricalHW/output/figs/Part IV/fig.5.a.3.pdf
+	width 48text%
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename /Users/apple/Courseworks/KelleyPhD/2020Spring/ECON572/EmpiricalHW/output/figs/Part IV/fig.5.a.4.pdf
+	width 48text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Local linear
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset Formula $\hat{\alpha}(z)$
+\end_inset
+
+ and 
+\begin_inset Formula $\hat{\beta}(z)$
+\end_inset
+
+ by the local constant and linear estimation
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:2.a"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+This figure shows 
+\begin_inset Formula $\hat{\alpha}(z)$
+\end_inset
+
+ and 
+\begin_inset Formula $\hat{\beta}(z)$
+\end_inset
+
+ from various local constant and linear estimators.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+See Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:2.b"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+ Compared to the results from part (a), it is relatively hart to interpret
+ the results in part (b).
+ 
+\begin_inset Float figure
+wide false
+sideways true
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename /Users/apple/Courseworks/KelleyPhD/2020Spring/ECON572/EmpiricalHW/output/figs/Part IV/fig.5.b.1.pdf
+	width 33text%
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename /Users/apple/Courseworks/KelleyPhD/2020Spring/ECON572/EmpiricalHW/output/figs/Part IV/fig.5.b.2.pdf
+	width 33text%
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename /Users/apple/Courseworks/KelleyPhD/2020Spring/ECON572/EmpiricalHW/output/figs/Part IV/fig.5.b.3.pdf
+	width 33text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Local constant
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /Users/apple/Courseworks/KelleyPhD/2020Spring/ECON572/EmpiricalHW/output/figs/Part IV/fig.5.b.4.pdf
+	width 33text%
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename /Users/apple/Courseworks/KelleyPhD/2020Spring/ECON572/EmpiricalHW/output/figs/Part IV/fig.5.b.5.pdf
+	width 33text%
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename /Users/apple/Courseworks/KelleyPhD/2020Spring/ECON572/EmpiricalHW/output/figs/Part IV/fig.5.b.6.pdf
+	width 33text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Local linear
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset Formula $\hat{\alpha}(z)$
+\end_inset
+
+, 
+\begin_inset Formula $\hat{\beta}_{1}(z)$
+\end_inset
+
+, and 
+\begin_inset Formula $\hat{\beta}_{2}(z)$
+\end_inset
+
+ by the local constant and linear estimation
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:2.b"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+This figure shows 
+\begin_inset Formula $\hat{\alpha}(z)$
+\end_inset
+
+, 
+\begin_inset Formula $\hat{\beta}_{1}(z)$
+\end_inset
+
+, and 
+\begin_inset Formula $\hat{\beta}_{2}(z)$
+\end_inset
+
+ from various local constant and linear estimators.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+From the above questions, we can verify that the local constant estimator
+ and the local linear estimator yield almost identical results.
+ Hence, for this question, I only calculate the local constant estimator
+ using the bandwidth set by the rule of thumb to highlight a comparison
+ between two subsets .
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Male vs.
+ Female: For the results, see Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:3.a.1"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+, 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:3.a.2"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+, and 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:3.a.3"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+ Overall, no distinct patterns are detected in subsamples.
+ 
+\begin_inset Float figure
+wide false
+sideways true
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /Users/apple/Courseworks/KelleyPhD/2020Spring/ECON572/EmpiricalHW/output/figs/Part IV/fig.6.a.1.pdf
+	width 45text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Male
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /Users/apple/Courseworks/KelleyPhD/2020Spring/ECON572/EmpiricalHW/output/figs/Part IV/fig.6.a.2.pdf
+	width 48text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Female
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset Formula $\hat{m}(x)$
+\end_inset
+
+ by the local constant estimation
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:3.a.1"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+This figure shows 
+\begin_inset Formula $\hat{m}(x)$
+\end_inset
+
+ from various local constant estimators.
+ Blue linear dashed line represents the linear regression model 
+\begin_inset Formula $y=\hat{\alpha}+\hat{\beta}x$
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /Users/apple/Courseworks/KelleyPhD/2020Spring/ECON572/EmpiricalHW/output/figs/Part IV/fig.6.a.3.pdf
+	width 48text%
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename /Users/apple/Courseworks/KelleyPhD/2020Spring/ECON572/EmpiricalHW/output/figs/Part IV/fig.6.a.4.pdf
+	width 48text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Male
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /Users/apple/Courseworks/KelleyPhD/2020Spring/ECON572/EmpiricalHW/output/figs/Part IV/fig.6.a.5.pdf
+	width 48text%
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename /Users/apple/Courseworks/KelleyPhD/2020Spring/ECON572/EmpiricalHW/output/figs/Part IV/fig.6.a.6.pdf
+	width 48text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Female
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset Formula $\hat{\alpha}(z)$
+\end_inset
+
+ and 
+\begin_inset Formula $\hat{\beta}(z)$
+\end_inset
+
+ by the local constant estimation
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:3.a.2"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+This figure shows 
+\begin_inset Formula $\hat{\alpha}(z)$
+\end_inset
+
+ and 
+\begin_inset Formula $\hat{\beta}(z)$
+\end_inset
+
+ from various local constant estimators.
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways true
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename /Users/apple/Courseworks/KelleyPhD/2020Spring/ECON572/EmpiricalHW/output/figs/Part IV/fig.6.a.7.pdf
+	width 33text%
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename /Users/apple/Courseworks/KelleyPhD/2020Spring/ECON572/EmpiricalHW/output/figs/Part IV/fig.6.a.8.pdf
+	width 33text%
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename /Users/apple/Courseworks/KelleyPhD/2020Spring/ECON572/EmpiricalHW/output/figs/Part IV/fig.6.a.9.pdf
+	width 33text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Male
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /Users/apple/Courseworks/KelleyPhD/2020Spring/ECON572/EmpiricalHW/output/figs/Part IV/fig.6.a.10.pdf
+	width 33text%
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename /Users/apple/Courseworks/KelleyPhD/2020Spring/ECON572/EmpiricalHW/output/figs/Part IV/fig.6.a.11.pdf
+	width 33text%
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename /Users/apple/Courseworks/KelleyPhD/2020Spring/ECON572/EmpiricalHW/output/figs/Part IV/fig.6.a.12.pdf
+	width 33text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Female
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset Formula $\hat{\alpha}(z)$
+\end_inset
+
+, 
+\begin_inset Formula $\hat{\beta}_{1}(z)$
+\end_inset
+
+, and 
+\begin_inset Formula $\hat{\beta}_{2}(z)$
+\end_inset
+
+ by the local constant estimation
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:3.a.3"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+This figure shows 
+\begin_inset Formula $\hat{\alpha}(z)$
+\end_inset
+
+, 
+\begin_inset Formula $\hat{\beta}_{1}(z)$
+\end_inset
+
+, and 
+\begin_inset Formula $\hat{\beta}_{2}(z)$
+\end_inset
+
+ from various local constant estimators.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Employed vs.
+ Unemployed: For the results, see Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:3.b.1"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+, 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:3.b.2"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+, and 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:3.b.3"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+ Overall, no distinct patterns are detected in subsamples.
+ 
+\begin_inset Float figure
+wide false
+sideways true
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /Users/apple/Courseworks/KelleyPhD/2020Spring/ECON572/EmpiricalHW/output/figs/Part IV/fig.6.b.1.pdf
+	width 45text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Employed
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /Users/apple/Courseworks/KelleyPhD/2020Spring/ECON572/EmpiricalHW/output/figs/Part IV/fig.6.b.2.pdf
+	width 48text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Unemployed
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset Formula $\hat{m}(x)$
+\end_inset
+
+ by the local constant estimation
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:3.b.1"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+This figure shows 
+\begin_inset Formula $\hat{m}(x)$
+\end_inset
+
+ from various local constant estimators.
+ Blue linear dashed line represents the linear regression model 
+\begin_inset Formula $y=\hat{\alpha}+\hat{\beta}x$
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /Users/apple/Courseworks/KelleyPhD/2020Spring/ECON572/EmpiricalHW/output/figs/Part IV/fig.6.b.3.pdf
+	width 48text%
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename /Users/apple/Courseworks/KelleyPhD/2020Spring/ECON572/EmpiricalHW/output/figs/Part IV/fig.6.b.4.pdf
+	width 48text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Employed
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /Users/apple/Courseworks/KelleyPhD/2020Spring/ECON572/EmpiricalHW/output/figs/Part IV/fig.6.b.5.pdf
+	width 48text%
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename /Users/apple/Courseworks/KelleyPhD/2020Spring/ECON572/EmpiricalHW/output/figs/Part IV/fig.6.b.6.pdf
+	width 48text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Unemployed
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset Formula $\hat{\alpha}(z)$
+\end_inset
+
+ and 
+\begin_inset Formula $\hat{\beta}(z)$
+\end_inset
+
+ by the local constant estimation
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:3.b.2"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+This figure shows 
+\begin_inset Formula $\hat{\alpha}(z)$
+\end_inset
+
+ and 
+\begin_inset Formula $\hat{\beta}(z)$
+\end_inset
+
+ from various local constant estimators.
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways true
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename /Users/apple/Courseworks/KelleyPhD/2020Spring/ECON572/EmpiricalHW/output/figs/Part IV/fig.6.b.7.pdf
+	width 33text%
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename /Users/apple/Courseworks/KelleyPhD/2020Spring/ECON572/EmpiricalHW/output/figs/Part IV/fig.6.b.8.pdf
+	width 33text%
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename /Users/apple/Courseworks/KelleyPhD/2020Spring/ECON572/EmpiricalHW/output/figs/Part IV/fig.6.b.9.pdf
+	width 33text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Employed
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /Users/apple/Courseworks/KelleyPhD/2020Spring/ECON572/EmpiricalHW/output/figs/Part IV/fig.6.b.10.pdf
+	width 33text%
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename /Users/apple/Courseworks/KelleyPhD/2020Spring/ECON572/EmpiricalHW/output/figs/Part IV/fig.6.b.11.pdf
+	width 33text%
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename /Users/apple/Courseworks/KelleyPhD/2020Spring/ECON572/EmpiricalHW/output/figs/Part IV/fig.6.b.12.pdf
+	width 33text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Unemployed
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset Formula $\hat{\alpha}(z)$
+\end_inset
+
+, 
+\begin_inset Formula $\hat{\beta}_{1}(z)$
+\end_inset
+
+, and 
+\begin_inset Formula $\hat{\beta}_{2}(z)$
+\end_inset
+
+ by the local constant estimation
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:3.b.3"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+This figure shows 
+\begin_inset Formula $\hat{\alpha}(z)$
+\end_inset
+
+, 
+\begin_inset Formula $\hat{\beta}_{1}(z)$
+\end_inset
+
+, and 
+\begin_inset Formula $\hat{\beta}_{2}(z)$
+\end_inset
+
+ from various local constant estimators.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+With vs.
+ Without college education: For the results, see Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:3.c.1"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+, 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:3.c.2"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+, and 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:3.c.3"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+ Overall, no distinct patterns are detected in subsamples except with college
+ education subsample around 60s.
+  
+\begin_inset Float figure
+wide false
+sideways true
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /Users/apple/Courseworks/KelleyPhD/2020Spring/ECON572/EmpiricalHW/output/figs/Part IV/fig.6.c.1.pdf
+	width 45text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Uneducated
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /Users/apple/Courseworks/KelleyPhD/2020Spring/ECON572/EmpiricalHW/output/figs/Part IV/fig.6.c.2.pdf
+	width 48text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Educated
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset Formula $\hat{m}(x)$
+\end_inset
+
+ by the local constant estimation
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:3.c.1"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+This figure shows 
+\begin_inset Formula $\hat{m}(x)$
+\end_inset
+
+ from various local constant estimators.
+ Blue linear dashed line represents the linear regression model 
+\begin_inset Formula $y=\hat{\alpha}+\hat{\beta}x$
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /Users/apple/Courseworks/KelleyPhD/2020Spring/ECON572/EmpiricalHW/output/figs/Part IV/fig.6.c.3.pdf
+	width 48text%
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename /Users/apple/Courseworks/KelleyPhD/2020Spring/ECON572/EmpiricalHW/output/figs/Part IV/fig.6.c.4.pdf
+	width 48text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Uneducated
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /Users/apple/Courseworks/KelleyPhD/2020Spring/ECON572/EmpiricalHW/output/figs/Part IV/fig.6.c.5.pdf
+	width 48text%
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename /Users/apple/Courseworks/KelleyPhD/2020Spring/ECON572/EmpiricalHW/output/figs/Part IV/fig.6.c.6.pdf
+	width 48text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Educated
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset Formula $\hat{\alpha}(z)$
+\end_inset
+
+ and 
+\begin_inset Formula $\hat{\beta}(z)$
+\end_inset
+
+ by the local constant estimation
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:3.c.2"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+This figure shows 
+\begin_inset Formula $\hat{\alpha}(z)$
+\end_inset
+
+ and 
+\begin_inset Formula $\hat{\beta}(z)$
+\end_inset
+
+ from various local constant estimators.
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways true
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename /Users/apple/Courseworks/KelleyPhD/2020Spring/ECON572/EmpiricalHW/output/figs/Part IV/fig.6.c.7.pdf
+	width 33text%
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename /Users/apple/Courseworks/KelleyPhD/2020Spring/ECON572/EmpiricalHW/output/figs/Part IV/fig.6.c.8.pdf
+	width 33text%
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename /Users/apple/Courseworks/KelleyPhD/2020Spring/ECON572/EmpiricalHW/output/figs/Part IV/fig.6.c.9.pdf
+	width 33text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Uneducated
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /Users/apple/Courseworks/KelleyPhD/2020Spring/ECON572/EmpiricalHW/output/figs/Part IV/fig.6.c.10.pdf
+	width 33text%
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename /Users/apple/Courseworks/KelleyPhD/2020Spring/ECON572/EmpiricalHW/output/figs/Part IV/fig.6.c.11.pdf
+	width 33text%
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename /Users/apple/Courseworks/KelleyPhD/2020Spring/ECON572/EmpiricalHW/output/figs/Part IV/fig.6.c.12.pdf
+	width 33text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Educated
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset Formula $\hat{\alpha}(z)$
+\end_inset
+
+, 
+\begin_inset Formula $\hat{\beta}_{1}(z)$
+\end_inset
+
+, and 
+\begin_inset Formula $\hat{\beta}_{2}(z)$
+\end_inset
+
+ by the local constant estimation
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:3.c.3"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+This figure shows 
+\begin_inset Formula $\hat{\alpha}(z)$
+\end_inset
+
+, 
+\begin_inset Formula $\hat{\beta}_{1}(z)$
+\end_inset
+
+, and 
+\begin_inset Formula $\hat{\beta}_{2}(z)$
+\end_inset
+
+ from various local constant estimators.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+\start_of_appendix
+Appendix
+\end_layout
+
+\begin_layout Standard
+For R codes to get the above results, see 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+https://github.com/ysugk/Course-ECON572/tree/master/code
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

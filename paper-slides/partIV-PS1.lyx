@@ -888,6 +888,13 @@ This figure presents
 \end_layout
 
 \begin_layout Plain Layout
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
 \align center
 \begin_inset CommandInset include
 LatexCommand input
